@@ -1,0 +1,44 @@
+/*
+Default style for Simple Page Navigation with Page Numbers plugin
+
+
+*/
+
+.page_navi {
+    text-align: center;
+}
+ 
+.page_navi li {
+    display: inline;
+    list-style: none;
+}
+ 
+.page_navi li.current span {
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    padding: 3px 7px;
+    background: #fee;
+    border: solid 1px #fcc;
+}
+ 
+.page_navi li a {
+    color: #333;
+    padding: 3px 7px;
+    background: #eee;
+    display: inline-block;
+    border: solid 1px #999;
+    text-decoration: none;
+}
+ 
+.page_navi li a:hover {
+    color: #f00;
+}
+ 
+.page_navi li.page_nums span {
+    color: #fff;
+    padding: 3px 7px;
+    background: #666;
+    display: inline-block;
+    border: solid 1px #333;
+}
